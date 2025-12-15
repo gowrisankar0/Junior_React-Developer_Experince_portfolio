@@ -6,8 +6,8 @@ export const resumeData = {
             phone: "+91 97875 64242",
             email: "gsankar9797@gmail.com",
             location: "Theni, Tamilnadu - 625531",
-            linkedin: "https://linkedin.com/in/gowrisankar", // Placeholder based on name
-            github: "https://github.com/gowrisankar", // Placeholder based on name
+            linkedin: "https://www.linkedin.com/in/gowri-sankar-b875a520b/", // Placeholder based on name
+            github: "https://github.com/gowrisankar0", // Placeholder based on name
         },
         summary:
             "React.js Frontend Developer with 1.6 years of experience building scalable, responsive, and API-driven web applications. Skilled in React Hooks, Redux/Zustand state management, component architecture, REST API Integration, and performance optimization. Proven ability to deliver end-to-end features, improve UI speed, and collaborate with cross-functional teams.",

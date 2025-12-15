@@ -140,7 +140,7 @@ export default function Hero() {
                                 transition={{ duration: 0.5, delay: 0.2 }}
                                 className="mb-6"
                             >
-                                <h2 className="text-xl md:text-2xl text-emerald-400 font-medium mb-2 tracking-wide">Hello World, I Am</h2>
+                                <h2 className="text-xl md:text-2xl text-emerald-400 font-medium mb-2 tracking-wide">Hello Connections, I Am</h2>
                                 <h1 className="text-5xl md:text-7xl font-bold text-white tracking-tight mb-4 min-h-[80px]">
                                     <Typewriter text={personalInfo.name} delay={0.5} />
                                 </h1>
@@ -199,7 +199,7 @@ export default function Hero() {
                                     <div className="h-10 w-[1px] bg-slate-800 hidden sm:block" />
 
                                     <a
-                                        href="/resume.pdf"
+                                        href="/Gowrisankar_Resume.pdf"
                                         target="_blank"
                                         className="px-6 py-3 bg-slate-900 text-white rounded-lg border border-slate-700 hover:border-emerald-500/50 hover:bg-slate-800 transition-all flex items-center gap-2 group shadow-lg shadow-emerald-900/10"
                                     >

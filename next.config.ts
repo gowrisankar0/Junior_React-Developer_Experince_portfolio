@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
     appIsrStatus: false,
     buildActivity: false,
   } as any,
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;

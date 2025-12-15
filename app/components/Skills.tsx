@@ -51,7 +51,10 @@ const SkillPill = ({ skill, fullWidth = false }: { skill: string; fullWidth?: bo
                     <img
                         src={logoUrl}
                         alt={`${skill} logo`}
-                        className="w-full h-full object-contain"
+                        className={clsx(
+                            "w-full h-full object-contain",
+                            skill.toLowerCase().includes("github") && "invert"
+                        )}
                     />
                 ) : (
                     getFallbackIcon(skill)
