@@ -216,7 +216,7 @@ export default function Hero() {
                         initial={{ opacity: 0, scale: 0.8 }}
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ duration: 1, delay: 0.2 }}
-                        className="hidden lg:flex flex-1 justify-center items-center relative min-h-[500px] w-full perspective-[1000px]"
+                        className="hidden md:flex flex-1 justify-center items-center relative min-h-[500px] w-full perspective-[1000px]"
                     >
                         {/* Soft Ambient Glow */}
                         <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/10 to-emerald-500/10 blur-[100px] rounded-full mix-blend-screen pointer-events-none" />

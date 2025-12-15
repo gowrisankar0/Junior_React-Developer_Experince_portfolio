@@ -46,9 +46,10 @@ export default function Contact() {
 
                     {/* Contact Info */}
                     <motion.div
-                        initial={{ opacity: 0, x: -30 }}
+                        initial={{ opacity: 0, x: -50 }}
                         whileInView={{ opacity: 1, x: 0 }}
-                        viewport={{ once: true }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <div className="inline-block p-3 bg-emerald-500/10 rounded-2xl text-emerald-500 mb-6 border border-emerald-500/20">
                             <Mail size={32} />
@@ -111,10 +112,10 @@ export default function Contact() {
 
                     {/* Contact Form */}
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        whileInView={{ opacity: 1, scale: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ delay: 0.2 }}
+                        initial={{ opacity: 0, x: 50 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        viewport={{ once: true, margin: "-50px" }}
+                        transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
                         className="bg-slate-900/50 p-8 md:p-10 rounded-3xl shadow-2xl shadow-black/50 border border-slate-800 backdrop-blur-sm relative"
                     >
                         {isSuccess ? (
@@ -205,7 +206,7 @@ export default function Contact() {
                 </div>
 
                 <div className="border-t border-slate-800 mt-24 pt-8 text-center text-slate-600 text-sm">
-                    © {new Date().getFullYear()} Gowrisankar. Built with Next.js & Tailwind.
+                    © {new Date().getFullYear()} Gowrisankar.
                 </div>
             </div>
         </section>

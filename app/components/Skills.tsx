@@ -71,10 +71,10 @@ const AchievementCard = ({ title, description, index }: { title: string, descrip
 
     return (
         <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: index * 0.1 }}
+            initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
             className="group relative flex flex-col p-8 rounded-3xl bg-slate-900 border border-slate-800 overflow-hidden hover:border-slate-700 transition-colors"
         >
             {/* Hover Gradient Background */}
